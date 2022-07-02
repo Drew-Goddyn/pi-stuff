@@ -7,5 +7,6 @@ services:
     volumes:
       - /var/run/dbus:/var/run/dbus
       - /dev/bus/usb:/dev/bus/usb
-    privileged: true
+    devices:
+      - /dev/bus:/dev/bus
     restart: unless-stopped
