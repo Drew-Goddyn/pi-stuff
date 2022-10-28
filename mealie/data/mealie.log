@@ -1,0 +1,72 @@
+INFO: 05-Jul-22 09:54:57 	Generating Default Group
+INFO: 05-Jul-22 09:54:57 	Created Site Settings: 
+ language='en-US' first_day_of_week=0 show_recent=True cards_per_section=9 categories=[]
+INFO: 05-Jul-22 09:54:58 	Generating Default User
+INFO: 05-Jul-22 09:55:00 	Checking for Images to Minify...
+INFO: 05-Jul-22 09:55:00 	Finished Minification Check
+INFO: 05-Jul-22 09:55:03 	----INIT SCHEDULE OBJECT-----
+INFO: 05-Jul-22 09:55:04 	None
+INFO: 05-Jul-22 09:55:04 	-----SYSTEM STARTUP----- 
+
+INFO: 05-Jul-22 09:55:04 	------APP SETTINGS------
+INFO: 05-Jul-22 09:55:04 	{
+    "PRODUCTION": true,
+    "BASE_URL": "http://localhost:8080",
+    "IS_DEMO": false,
+    "API_PORT": 9000,
+    "API_DOCS": true,
+    "DB_ENGINE": "sqlite",
+    "POSTGRES_SERVER": "postgres",
+    "POSTGRES_PORT": "5432",
+    "POSTGRES_DB": "mealie",
+    "DB_URL_PUBLIC": "sqlite:////app/data/mealie_v0.5.0.db",
+    "DEFAULT_GROUP": "Home",
+    "DEFAULT_EMAIL": "changeme@email.com",
+    "LDAP_AUTH_ENABLED": false,
+    "LDAP_SERVER_URL": null,
+    "LDAP_BIND_TEMPLATE": null,
+    "LDAP_ADMIN_FILTER": null,
+    "TOKEN_TIME": 2,
+    "RECIPE_PUBLIC": true,
+    "RECIPE_SHOW_NUTRITION": true,
+    "RECIPE_SHOW_ASSETS": true,
+    "RECIPE_LANDSCAPE_VIEW": true,
+    "RECIPE_DISABLE_COMMENTS": false,
+    "RECIPE_DISABLE_AMOUNT": false,
+    "AUTO_BACKUP_ENABLED": false,
+    "SCHEDULER_DATABASE": "sqlite:////app/data/scheduler.db"
+}
+INFO: 08-Jul-22 19:54:37 	Checking for Images to Minify...
+INFO: 08-Jul-22 19:54:37 	Finished Minification Check
+INFO: 08-Jul-22 19:54:41 	----INIT SCHEDULE OBJECT-----
+INFO: 08-Jul-22 19:54:41 	None
+INFO: 08-Jul-22 19:54:41 	-----SYSTEM STARTUP----- 
+
+INFO: 08-Jul-22 19:54:41 	------APP SETTINGS------
+INFO: 08-Jul-22 19:54:41 	{
+    "PRODUCTION": true,
+    "BASE_URL": "http://localhost:8080",
+    "IS_DEMO": false,
+    "API_PORT": 9000,
+    "API_DOCS": true,
+    "DB_ENGINE": "sqlite",
+    "POSTGRES_SERVER": "postgres",
+    "POSTGRES_PORT": "5432",
+    "POSTGRES_DB": "mealie",
+    "DB_URL_PUBLIC": "sqlite:////app/data/mealie_v0.5.0.db",
+    "DEFAULT_GROUP": "Home",
+    "DEFAULT_EMAIL": "changeme@email.com",
+    "LDAP_AUTH_ENABLED": false,
+    "LDAP_SERVER_URL": null,
+    "LDAP_BIND_TEMPLATE": null,
+    "LDAP_ADMIN_FILTER": null,
+    "TOKEN_TIME": 2,
+    "RECIPE_PUBLIC": true,
+    "RECIPE_SHOW_NUTRITION": true,
+    "RECIPE_SHOW_ASSETS": true,
+    "RECIPE_LANDSCAPE_VIEW": true,
+    "RECIPE_DISABLE_COMMENTS": false,
+    "RECIPE_DISABLE_AMOUNT": false,
+    "AUTO_BACKUP_ENABLED": false,
+    "SCHEDULER_DATABASE": "sqlite:////app/data/scheduler.db"
+}

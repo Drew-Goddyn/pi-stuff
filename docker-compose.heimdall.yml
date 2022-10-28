@@ -16,3 +16,5 @@ services:
     restart: unless-stopped
 volumes:
   heimdall_config:
+
+docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token eyJhIjoiZDMyMzRlZDc4MDRlNTRlZGJkYmZmNTI1MjEwOWNmZjAiLCJ0IjoiNDhkODIxODctODcwNS00YjU5LWE2ODItMWMxYmJkOGM1YmU0IiwicyI6IlpEQmpOelZsWVRFdE1HVm1NeTAwT1RBekxXSmhaalV0Wm1Fd1pqWTVOalUxWWpreiJ9
