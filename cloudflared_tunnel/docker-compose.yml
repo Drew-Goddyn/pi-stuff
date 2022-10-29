@@ -7,3 +7,6 @@ services:
     command: tunnel run
     env_file:
       - stack.env
+
+
+#set TUNNEL_TOKEN env from cloudflared gui
