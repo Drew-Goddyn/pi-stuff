@@ -7,4 +7,3 @@ services:
     command: tunnel run
     env_file:
       - stack.env
-docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token eyJhIjoiZDMyMzRlZDc4MDRlNTRlZGJkYmZmNTI1MjEwOWNmZjAiLCJ0IjoiZDlmM2M0OGYtNWQyMC00MWZkLTljMzUtM2U4ZDVmMGM4OWE0IiwicyI6Ik1qRXdNREptTXpjdE1XWm1PQzAwWVdZNExUazFaakV0WVRJMk1EZGpaRE00T0RWayJ9
