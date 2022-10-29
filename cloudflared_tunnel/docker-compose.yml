@@ -5,8 +5,8 @@ services:
     image: cloudflare/cloudflared
     restart: unless-stopped
     command: tunnel run
-    env_file:
-      - stack.env
+    environment:
+      - TUNNEL_TOKEN=$TUNNEL_TOKEN
 
 
 #set TUNNEL_TOKEN env from cloudflared gui
