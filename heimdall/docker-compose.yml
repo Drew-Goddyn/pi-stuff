@@ -17,6 +17,3 @@ services:
       - heimdall_network
 volumes:
   heimdall_config:
-
-networks:
-  heimdall_network:
