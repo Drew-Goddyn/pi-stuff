@@ -44,8 +44,8 @@ services:
 
   node-exporter:
     container_name: monitoring-node-exporter
-    ports:
-      - "9100:9100"
+    expose:
+      - 9100
     hostname: rpi-exporter
     image: prom/node-exporter:latest
     networks:
@@ -57,8 +57,8 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
     container_name: monitoring-prometheus
-    ports:
-    - "9090:9090"
+    expose:
+      - 9090
     hostname: rpi-prom
     image: fensus/prometheus:latest
     networks:
