@@ -11,7 +11,12 @@ services:
     volumes:
       - heimdall_config:/config
     ports:
-      - 443:443
+      - 80:80
     restart: unless-stopped
+    networks:
+      - heimdall_network
 volumes:
   heimdall_config:
+
+networks:
+  heimdall_network:
