@@ -60,13 +60,12 @@ services:
     ports:
     - "9090:9090"
     hostname: rpi-prom
-    image: prom/prometheus:latest
+    image: fensus/prometheus:latest
     networks:
       - rpimonitor_default
     restart: unless-stopped
     volumes:
       - prometheus_data:/prometheus
-      - ./prometheus/:/etc/prometheus/
     links:
       - cadvisor:cadvisor
       - node-exporter:node-exporter
